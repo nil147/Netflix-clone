@@ -17,19 +17,19 @@ function Nav() {
 
     return (
         <div className={`nav ${show && "nav-black"}`}>
-            <img 
-            className="nav-logo"
-            src="https://logos-world.net/wp-content/uploads/2020/04/Netflix-Logo.png">
-                
+            <img
+                className="nav-logo"
+                src="https://upload.wikimedia.org/wikipedia/commons/0/08/Netflix_2015_logo.svg">
+
             </img>
-            <img 
-            className="nav-avatar"
-            src="https://occ-0-2622-778.1.nflxso.net/dnm/api/v6/0RO1pLmU93-gdXvuxd_iYjzPqkc/AAAABeZakDz11ZWzhgfol0EvY3nQQfPNItHRE_Ek8LFdWkZ3fEf_a2By9czWI0zTV-AtR_B66axVhJUOqTD6vMmPlhnFyZaE.png?r=f71"
+            <img
+                className="nav-avatar"
+                src="https://occ-0-2622-778.1.nflxso.net/dnm/api/v6/0RO1pLmU93-gdXvuxd_iYjzPqkc/AAAABeZakDz11ZWzhgfol0EvY3nQQfPNItHRE_Ek8LFdWkZ3fEf_a2By9czWI0zTV-AtR_B66axVhJUOqTD6vMmPlhnFyZaE.png?r=f71"
             >
-                
+
             </img>
 
-            
+
         </div>
     )
 }
