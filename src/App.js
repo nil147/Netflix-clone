@@ -15,6 +15,7 @@ function App() {
       <Row title="Latest" fetchUrl={request.fetchToprated} />
       <Row title="Now Playing" fetchUrl={request.fetchNow} />
       <Row title="Up Coming" fetchUrl={request.fetchComing} />
+      <Row title="Drama" fetchUrl={request.fetchToprated} />
     </div>
   );
 }
